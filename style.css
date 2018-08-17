@@ -1,10 +1,29 @@
 /* Styles go here */
 
-* {
+body {
     box-sizing: border-box;
+    background-color: aquamarine;
 }
 
-.headline {
+
+input[type='text'], input[type='email'], input[type='number'] {
+    width: 400px;
+    padding: 5px;
+}
+
+input[type="text"]:focus,
+inpupt[type="email"]:focus,
+input[type="number"]:focus {
+    border-color: rgb(8, 42, 192);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+  }
+
+
+select {
+    width: 200px;
+    padding: 5px;
+}
+/* .headline {
   text-align: center;
 }
 
@@ -17,12 +36,7 @@ input:valid
 color: green;
 }
 
-input[type=text] inpupt[type=password]{
-    width: 100%;
-    padding: 5px;
-    border: 5px solid #ccc;
-    border-radius: 4px;
-}
+
 
 #submitButton {
     background-color: darkcyan;
@@ -37,9 +51,9 @@ input[type=text] inpupt[type=password]{
 
 #submitButton:hover {
     background-color: cyan;
-}
+} */
 
-.container {
+/* .container {
     border-radius: 5px;
     background-color: lightgrey;
     padding: 20px;
@@ -79,4 +93,4 @@ input[type=text] inpupt[type=password]{
 
 .alignCenter {
   display: inline-block;
-}
+} */
